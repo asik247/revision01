@@ -36,3 +36,28 @@ switch(day){
     default:
         console.log("invalid day");
 }
+let days = new Date().getDay()
+console.log(days);
+switch(days){
+    case 0:
+        console.log("Saterday");
+        break;
+    case 0:
+        console.log("Saterday");
+        break;
+    case 1:
+        console.log("Sunday");
+        break;
+    case 2:
+        console.log("Twesday");
+        break;
+    case 3:
+        console.log("Wednessday");
+        break;
+    case 5:
+        console.log("Thursday");
+        break;
+    case 6:
+        console.log("Friday");
+        break;
+}
