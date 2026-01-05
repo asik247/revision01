@@ -69,5 +69,17 @@ for(let i = 0; i < 10; i++){
 let cars = ['bmw','honda','mercitics','toyta'];
 let length = cars.length;
 for(let i = 0; i < length; i++){
+    if(i==2){
+        break
+    }
     console.log(cars[i]);
+}
+// While loop
+let i = 0
+while(i<5){
+    if(i==2){
+        continue
+    }
+    console.log(i);
+    i++
 }
