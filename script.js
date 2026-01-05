@@ -61,3 +61,13 @@ switch(days){
         console.log("Friday");
         break;
 }
+
+// for loop
+for(let i = 0; i < 10; i++){
+    console.log(i);
+}
+let cars = ['bmw','honda','mercitics','toyta'];
+let length = cars.length;
+for(let i = 0; i < length; i++){
+    console.log(cars[i]);
+}
