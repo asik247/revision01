@@ -4,3 +4,19 @@ console.log(num);
 // usign sprade operator
 let array = [10,20,30]
 console.log(...array);
+// Function arguments পাঠাতে sprade operator
+function sum (a,b,c){
+    return a+b+c;
+}
+let taka = [10,20,30];
+let result = (sum(...taka))
+console.log(result);
+
+
+
+
+let basket1 = ["apple", "banana"];
+let basket2 = ["mango", "orange"];
+console.log(basket1 + basket2);
+let allFruits = [...basket1, ...basket2];
+console.log(allFruits);
