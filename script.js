@@ -20,3 +20,19 @@ console.log(allFruits);
 let age = 15
 let text = (age < 18)?"Minor":"Adult"
 console.log(text);
+
+let isMember = false;
+let discount = isMember?"02taka":"nai"
+console.log(discount);
+// Switch Case Syntax:
+let day = 10;
+switch(day){
+    case 1:
+        console.log("Saterday");
+        break;
+    case 2:
+        console.log("sunday");
+        break;
+    default:
+        console.log("invalid day");
+}
